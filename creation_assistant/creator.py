@@ -5,7 +5,7 @@ puppets = f.read().split('\n')
 puppets = list(filter(None, puppets))
 totalcount = len(puppets)
 
-links = open('puppets_log.html', 'w')
+links = open('puppets_create.html', 'w')
 
 links.write("""
 <html>
@@ -54,7 +54,7 @@ for idx, k in enumerate(puppets):
 	canonical = k.lower().replace(" ", "_")
 	links.write("""<tr>""")
 	links.write("""<td>{} of {}</td>""".format(idx+1, totalcount))
-	links.write("""<td><p><a target="_blank" href="{}">Link to {}</a></p></td>""".format(f"https://www.nationstates.net/nation={canonical}/page=create_nation/name={canonical}", canonical))
+	links.write("""<td><p><a target="_blank" href="{}">Link to {}</a></p></td>""".format(f"https://www.nationstates.net/nation={canonical}/page=create_nation/name={k}", k))
 	links.write("""</tr>\n""")
 
 
