@@ -11,7 +11,7 @@
     let enpass = document.querySelectorAll('input[type="password"]')[1];
     if (enpass) {
       enpass.value = "PASSWORDGLASSWORD!!!!!!!!!!!!!!!!!!!";
-      let check = document.querySelector('input[type="checkbox"]')[1];
+      let check = document.querySelectorAll('input[type="checkbox"]')[1];
       if (check) {
         check.click();
       }
