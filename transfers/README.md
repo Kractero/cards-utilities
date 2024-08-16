@@ -1,6 +1,6 @@
 Bespoke transfer setup that takes a file of cards formatted like id,season,amt. 
 
-Your UA nation (which is presumably our main) will place bids equal to the amount of asks for each card. Then, the puppets will begin placing asks to match the amount of bids. Puppets will place as many bids as they can to fit within the configured ask/bid amount (for example if they have 25 bank they will place two asks)
+Your UA nation (which is presumably your main) will place bids equal to the amount of asks for each card. Then, the puppets will begin placing asks to match the amount of bids. Puppets will place as many bids as they can to fit within the configured ask/bid amount (for example if they have 25 bank they will place two bids)
 
 1. Put puppets into puppets.txt.
 
